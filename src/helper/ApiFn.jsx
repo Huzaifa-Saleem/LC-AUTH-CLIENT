@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //base url
-axios.defaults.baseURL = "http://localhost:8080";
+axios.defaults.baseURL = "https://api-lc-auth.onrender.com/";
 
 /** Verify username */
 export const VerifyUser = async (username) => {
