@@ -1,8 +1,8 @@
 import axios from "axios";
 
 //base url
-// axios.defaults.baseURL = "https://lc-auth-api.onrender.com/";
-axios.defaults.baseURL = "http://localhost:8080/";
+axios.defaults.baseURL = "https://lc-auth-api.onrender.com/";
+// axios.defaults.baseURL = "http://localhost:8080/";
 // axios.defaults.baseURL = "https://api-lc-auth.onrender.com/";
 
 /** Verify username */
